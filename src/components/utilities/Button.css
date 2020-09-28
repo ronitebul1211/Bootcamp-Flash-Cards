@@ -1,0 +1,31 @@
+.btn-base{
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: black;
+  font-weight: 600;
+  transition-duration: 0.4s;
+}
+
+.btn-base.normal{
+  background-color: #FECA1D;
+}
+.btn-base.normal:hover{
+  background-color: #d6a400;
+}
+.btn-base.danger{
+  background-color: #F44336;
+}
+.btn-base.danger:hover{
+  background-color: #ce3025;
+}
+.btn-base.success{
+  background-color: #4caf50;
+}
+.btn-base.success:hover{
+  background-color: #3b913e;
+}
+

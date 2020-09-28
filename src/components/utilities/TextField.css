@@ -1,0 +1,28 @@
+.text-field-container{
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field-container .label{
+  margin-right: 5px;
+  margin-bottom: 1px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.text-field-container .text {
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.text-field-container .display-mode{
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.text-field-container .edit-mode{
+  width: 100%;
+  resize:vertical;
+}
+
